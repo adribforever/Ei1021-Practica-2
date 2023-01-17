@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ofertar Viajes</title>
+    <link rel="stylesheet" type="text/css" href="maincss.css">
+</head>
+<body>
+<div id="central">
+    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aca6d2e2-56dd-4968-9cd7-915544f0130d/de3vatk-34f70f44-213d-4ce9-9ce2-853584a16d95.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FjYTZkMmUyLTU2ZGQtNDk2OC05Y2Q3LTkxNTU0NGYwMTMwZFwvZGUzdmF0ay0zNGY3MGY0NC0yMTNkLTRjZTktOWNlMi04NTM1ODRhMTZkOTUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.JMDUqJlyShTTpUVfRu8QyP0tepeQYOAgzG11g0st-cg"
+         alt="BlaBlaUji">
+    <h1 class="titulo">Oferta un nuevo viaje</h1>
+    <div>
+        <form class="formulario" method="get">
+
+            <label class="formverde">Cuenta:</label>
+
+            <input required type="radio" id="Estandar" name="type" value="Estándar">
+            <label>Estándar</label>
+            <input required type="radio" id="Premium" name="type" value="Premium">
+            <label>Premium</label><br>
+
+
+            <label class="formverde2">Código de cliente:</label>
+            <input required type="text" id="codcli" name="codcli"><br>
+
+
+            <label class="formverde">Origen:</label>
+            <input class="inputLargo" required type="text" id="origen" name="origen" maxlength="40">
+
+
+            <label class="formverde2">Destino:</label>
+            <input class="inputLargo" required type="text" id="destino" name="destino" maxlength="40"><br>
+
+
+            <label class="formverde">Fecha:</label>
+            <input required type="date" id="Fecha" name="Fecha" aria-describedby="date-format"/><br>
+            <label class="formverde">Precio:</label>
+            <input required type="number" id="Precio" name="Precio" min="0" step="1">
+
+            <label class="formverde3">Plazas:</label>
+            <select required name="Plazas">
+
+                <option>Una</option>
+
+                <option>Dos</option>
+
+                <option>Tres</option>
+
+                <option>Cuatro</option>
+
+            </select><br>
+            <input id="boton" type="submit" value="Haz la oferta">
+        </form>
+
+    </div>
+</div>
+</body>
+</html>

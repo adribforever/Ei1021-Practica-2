@@ -1,0 +1,65 @@
+#central{
+    text-align: center;
+
+}
+.titulo{
+    color:DodgerBlue;
+    font-size:45px;
+
+}
+.lista{
+    text-align: left;
+    width: 150px;
+    margin: 0 auto;
+}
+.formulario{
+    width: 50%;
+    height: 80%;
+    margin: 0 auto;
+    text-align: left;
+
+}
+.formverde{
+    background-color: #67E64E;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-right: 70px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+.formverde2{
+    background-color: #67E64E;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+.formverde3{
+    background-color: #67E64E;
+    font-weight: bold;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin-left: 10%;
+}
+.inputLargo{
+    width: 30%;
+}
+
+#boton{
+    text-align: center;
+   margin-left: 35%;
+}
+input{
+    margin-bottom: 10px;
+}
+
+div.container {
+    width: 96%;
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+img {
+    width: 80%;
+    height: 200px;
+}
